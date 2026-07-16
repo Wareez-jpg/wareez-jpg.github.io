@@ -20,7 +20,15 @@ A single page portfolio showcasing my projects, skills and contact information.
 - Built the full HTML skeleton of the portfolio
 - Learned semantic HTML- header, nav, main, section, footer
 - Learned the difference between id and class
--Learned block vs inline elements
+- Learned block vs inline elements
+
+### Session 3 - 16 July 2026
+- Created and linked my style.css to my HTML file
+- Set up :root with custom properties
+- learned use and importance of variables in my code
+- Learned the four layers and their uses
+- Used --bg-surface to create visual separation between sections
 
 ## Tech Stack
 HTML 5
+CSS3
