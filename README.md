@@ -38,6 +38,7 @@ A single page portfolio showcasing my projects, skills and contact information.
 - Learned primary vs outline button styles and visual hierarchy
 - Fixed css targeting bug
 - Full portfolio styled and pushed live
+- added profile photo to the site
 
 ## Tech Stack
 HTML 5

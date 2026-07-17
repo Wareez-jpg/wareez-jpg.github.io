@@ -202,11 +202,31 @@ nav a{
 }
 
 footer {
-    text-align: center;
-    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
     color: var(--text-secondary);
     border-top: 1px solid #ffffff10;
     font-size: 0.9rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20;
+}
+
+.footer-icons a {
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+    color: var(--accent);
 }
 
 @media (max-width: 768px) {
