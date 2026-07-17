@@ -29,6 +29,16 @@ A single page portfolio showcasing my projects, skills and contact information.
 - Learned the four layers and their uses
 - Used --bg-surface to create visual separation between sections
 
+### Session 4 - 17 July 2026
+- Fixed hero content positioning
+- Learned CSS grid and Flexbox
+- Combined both for project cards
+- Learned repeat() and fr units for grid columns
+- Styled contact section
+- Learned primary vs outline button styles and visual hierarchy
+- Fixed css targeting bug
+- Full portfolio styled and pushed live
+
 ## Tech Stack
 HTML 5
 CSS3
