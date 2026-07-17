@@ -171,3 +171,29 @@ footer {
     border-top: 1px solid #ffffff10;
     font-size: 0.9rem;
 }
+
+@media (max-width: 768px) {
+    nav {
+        padding: 0 16px;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        gap: 16px;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 60px 16px;
+    }
+}
