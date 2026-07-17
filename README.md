@@ -38,7 +38,16 @@ A single page portfolio showcasing my projects, skills and contact information.
 - Learned primary vs outline button styles and visual hierarchy
 - Fixed css targeting bug
 - Full portfolio styled and pushed live
-- added profile photo to the site
+- Added profile photo to the site
+
+### Session 5 - 17 July 2026
+- Learned alt attribute
+- Added mobile responsiveness to about section via media query
+- Learned the difference between CDN and local file loading
+- Learned CSS transitions and hover pseudo-class
+- Linked mhy linkedin and github pages to footer
+- Styled footer with Flexbox
+- Learned and connected script.js to HTML using <script> tag
 
 ## Tech Stack
 HTML 5
