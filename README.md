@@ -52,3 +52,4 @@ A single page portfolio showcasing my projects, skills and contact information.
 ## Tech Stack
 HTML 5
 CSS3
+JavaScript
