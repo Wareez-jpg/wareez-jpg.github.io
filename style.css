@@ -258,6 +258,18 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: var(--bg-surface);
+        width: 100%;
+        padding: 20px;
+        gap: 20px;
+    }
 }
 
 html {

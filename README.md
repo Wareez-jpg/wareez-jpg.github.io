@@ -49,6 +49,18 @@ A single page portfolio showcasing my projects, skills and contact information.
 - Styled footer with Flexbox
 - Learned and connected script.js to HTML using <script> tag
 
+### Session 6 - 19 july 2026
+- Replaced placeholder projects with real school projects
+- Added Google Drive links for Database and Cybersecurity projects
+- Added YouTube link for 3D Maze Game gameplay
+- Learned why JavaScript is needed vs CSS — CSS is static, JS reacts in real time
+- Built scroll-based nav highlight using getBoundingClientRect()
+- Learned if/else logic
+- Learned window.innerWidth to detect screen size in JS
+- Built hamburger menu for mobile using JavaScript toggle logic
+- Learned addEventListener('click') — reacting to user clicks
+- Menu opens and closes on tap with proper mobile styling
+
 ## Tech Stack
 HTML 5
 CSS3
