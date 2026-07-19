@@ -259,3 +259,18 @@ footer {
         text-align: center;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav a .active {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+nav a.active {
+  color: var(--accent);
+  font-weight: bold;
+  border-bottom: 2px solid var(--accent);
+}
