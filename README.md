@@ -49,7 +49,7 @@ A single page portfolio showcasing my projects, skills and contact information.
 - Styled footer with Flexbox
 - Learned and connected script.js to HTML using <script> tag
 
-### Session 6 - 19 july 2026
+### Session 6 - 19 July 2026
 - Replaced placeholder projects with real school projects
 - Added Google Drive links for Database and Cybersecurity projects
 - Added YouTube link for 3D Maze Game gameplay
@@ -60,6 +60,15 @@ A single page portfolio showcasing my projects, skills and contact information.
 - Built hamburger menu for mobile using JavaScript toggle logic
 - Learned addEventListener('click') — reacting to user clicks
 - Menu opens and closes on tap with proper mobile styling
+
+### Session 7 - 20 July 2026
+- Added hover effects on project card
+- Fixed hamburger menu: close menu when a nav link is clicked
+- Added scroll to top button
+- Added and fixed page behaviour
+- Added floating logo to hero
+- Learned <i></i> and devicon-html5-plain use
+- Added keyframes to floating icons
 
 ## Tech Stack
 HTML 5

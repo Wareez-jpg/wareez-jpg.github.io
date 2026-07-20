@@ -32,6 +32,12 @@ hamburger.addEventListener('click', function() {
   }
 })
 
+navLinks.forEach(function(link) {
+  link.addEventListener('click', function() {
+    navMenu.style.display = 'none'
+  })
+})
+
 window.onscroll = function() {
   let current = ''
   sections.forEach(function(section) {
@@ -47,3 +53,20 @@ window.onscroll = function() {
     }
   })
 }
+
+const scrollTopBtn = document.getElementById('scrollTop')
+
+window.addEventListener('scroll', function() {
+  if(window.scrollY > 300) {
+    scrollTopBtn.style.display = 'block'
+  } else {
+    scrollTopBtn.style.display = 'none'
+  }
+})
+
+scrollTopBtn.addEventListener('click', function() {
+  document.documentElement.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+})
