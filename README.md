@@ -70,6 +70,13 @@ A single page portfolio showcasing my projects, skills and contact information.
 - Learned <i></i> and devicon-html5-plain use
 - Added keyframes to floating icons
 
+### Session 8 - 23 July 2026
+- Learned what Fetch API is
+- Learned what JSON is
+- Learned data[0].name syntax for accessing JSON properties
+- Used Github API to fetch repos automatically
+- Study-tracker added to projects section
+
 ## Tech Stack
 HTML 5
 CSS3
