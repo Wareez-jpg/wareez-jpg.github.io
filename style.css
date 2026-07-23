@@ -175,6 +175,10 @@ nav a{
     font-weight: bold;
 }
 
+#github-projects {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
 #contact {
     background-color: var(--bg-surface);
     max-width: 100%;

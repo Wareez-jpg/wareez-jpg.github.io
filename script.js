@@ -70,3 +70,26 @@ scrollTopBtn.addEventListener('click', function() {
     behavior: 'smooth'
   })
 })
+
+fetch('https://api.github.com/users/wareez-jpg/repos')
+  .then(function(response) {
+    return response.json()
+  })
+  .then(function(data) {
+    const container = document.getElementById('github-projects')
+    const excludedRepos = ['wareez-jpg.github.io', 'Database-system', 'Cybersecurity-implementation']
+
+    data.forEach(function(repo) {
+      if (excludedRepos.includes(repo.name)) return
+
+      
+      const card = document.createElement('div')
+      card.classList.add('project-card')
+      card.innerHTML =`
+        <h3>${repo.name}</h3>
+        <p>${repo.description || 'No description yet.'}</p>
+        <a href="${repo.html_url}" target="_blank">View on Github</a>
+      `
+      container.appendChild(card)
+    })
+  })
