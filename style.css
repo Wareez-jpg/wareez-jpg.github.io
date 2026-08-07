@@ -200,14 +200,55 @@ nav a{
     margin-bottom: 30px;
 }
 
-#contact a {
-    display: inline-block;
-    border: 2px solid var(--accent);
-    color: var(--accent);
-    padding: 12px 30px;
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 2rem auto 0;
+}
+
+#contact-form input,
+#contact-form textarea {
+    background-color: var(--bg-surface);
+    color: var(--text-primary);
+    border: 1px solid var(--text-secondary);
     border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: var(--text-secondary);
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+#contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#contact-form button {
+    background-color: var(--accent);
+    color: var(--bg-primary);
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#contact-form button:hover {
+    background-color: var(--accent-hover);
 }
 
 footer {

@@ -93,3 +93,19 @@ fetch('https://api.github.com/users/wareez-jpg/repos')
       container.appendChild(card)
     })
   })
+
+emailjs.init("IFjBK1oaRmHOZ15hl");
+
+const contactForm = document.getElementById("contact-form");
+contactForm.addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm("service_7e9bo5t", "template_blqs3y7", contactForm)
+    .then(function() {
+      console.log("Email sent!");
+      contactForm.reset();
+    })
+    .catch(function(error) {
+      console.log("Failed to send:", error);
+    });
+});

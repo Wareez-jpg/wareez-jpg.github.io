@@ -77,6 +77,13 @@ A single page portfolio showcasing my projects, skills and contact information.
 - Used Github API to fetch repos automatically
 - Study-tracker added to projects section
 
+### Session 9 - 7 August 2026
+- Learned why EmailJS is used
+- Set and connected EmailJS accounts with GMail
+- Learned e.preventDefault() and Promises via .then()
+- Removed and replaced old mailto link with EmailJS form
+- Contact form fully working
+
 ## Tech Stack
 HTML 5
 CSS3
