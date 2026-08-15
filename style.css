@@ -374,8 +374,8 @@ nav a.active {
 #icon1 { left: 10%; animation-delay: 0s; }
 #icon2 { left: 25%; animation-delay: 0.5s; }
 #icon3 { left: 45%; animation-delay: 1s; }
-#icon3 { left: 65%; animation-delay: 1.5s; }
-#icon4 { left: 85%; animation-delay: 2s; }
+#icon4 { left: 65%; animation-delay: 1.5s; }
+#icon5 { left: 85%; animation-delay: 2s; }
 
 @keyframes float {
     0% { transform: translateY(0px); }

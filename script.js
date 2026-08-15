@@ -82,13 +82,14 @@ fetch('https://api.github.com/users/wareez-jpg/repos')
     data.forEach(function(repo) {
       if (excludedRepos.includes(repo.name)) return
 
-      
+      const liveUrl = repo.homepage && repo.homepage.trim() !== '' ? repo.homepage : repo.html_url
+
       const card = document.createElement('div')
       card.classList.add('project-card')
       card.innerHTML =`
         <h3>${repo.name}</h3>
         <p>${repo.description || 'No description yet.'}</p>
-        <a href="${repo.html_url}" target="_blank">View on Github</a>
+        <a href="${liveUrl}" target="_blank">View Project</a>
       `
       container.appendChild(card)
     })
